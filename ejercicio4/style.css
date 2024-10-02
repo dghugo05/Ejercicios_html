@@ -1,0 +1,44 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: red;
+}
+
+#Titulo1{
+    text-align: center;
+    color: blue;
+}
+
+#trabajador{
+    background-color: grey;
+    border-top: 2%;
+    border-top-style: solid;
+    border-top-color:rgb(168, 168, 168);
+}
+
+#datos{
+    border-color: black;
+    border-width: 3px;
+    border-style:solid;
+}
+
+#Estudios{
+    border-color: black;
+    border-inline-width: 3px;
+    border-style:double;
+}
+
+#Titulo2{
+    text-align: center;
+    color: green;
+}
+
+pre{
+    white-space: wrap;
+}
+
+hr{
+    width:0%;
+}
