@@ -13,21 +13,15 @@ h1{
 
 #trabajador{
     background-color: grey;
-    border-top: 2%;
-    border-top-style: solid;
-    border-top-color:rgb(168, 168, 168);
+    border-top: 2%, solid, rgb(168, 168, 168);
 }
 
 #datos{
-    border-color: black;
-    border-width: 3px;
-    border-style:solid;
+    border:3px, black, solid;
 }
 
 #Estudios{
-    border-color: black;
-    border-inline-width: 3px;
-    border-style:double;
+    border:3px, black, double;
 }
 
 #Titulo2{
