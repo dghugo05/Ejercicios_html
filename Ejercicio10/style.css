@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Ribeye;
+    src: url('/Ejercicio10/Fuentes/RibeyeMarrow-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("/Ejercicio10/Fuentes/Lobster-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Anotherhand;
+    src: url("Fuentes\JustAnotherHand-Regular.ttf") format("truetype");
+}
+
+body{
+    background-color: #ccac4d;
+}
+
+h1{
+    font-family: Ribeye;
+}
