@@ -1,16 +1,16 @@
 @font-face {
-    font-family: Ribeye;
-    src: url('/Ejercicio10/Fuentes/RibeyeMarrow-Regular.ttf') format('truetype');
+    font-family: "Ribeye";
+    src: url('Fuentes/RibeyeMarrow-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: Lobster;
-    src: url("/Ejercicio10/Fuentes/Lobster-Regular.ttf") format("truetype");
+    font-family: "Lobster";
+    src: url("Fuentes/Lobster-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: Anotherhand;
-    src: url("Fuentes\JustAnotherHand-Regular.ttf") format("truetype");
+    font-family: "Anotherhand";
+    src: url("Fuentes/JustAnotherHand-Regular.ttf") format("truetype");
 }
 
 body{
@@ -19,4 +19,35 @@ body{
 
 h1{
     font-family: Ribeye;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p.intro{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    text-align:justify;
+}
+
+cite{
+    text-decoration: underline;
+}
+
+p.latin{
+    margin:auto;
+    font-family: Lobster;
+    font-size: 2.5rem;
+}
+
+p.espanol{
+    margin: 0, 0, 3rem;
+    color: white;
+    font-family: Anotherhand;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
 }
