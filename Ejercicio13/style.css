@@ -29,3 +29,26 @@ h1{
     color: white;
     font-size: 27px;
 }
+
+main{
+    padding-top: 15px;
+}
+
+section{
+    display: block;
+    padding-top: 15px;
+    box-shadow: darkgrey 5px, 5px, 5px, 5px;
+}
+
+section > img{
+    width: 200px;
+    height: 200px;
+}
+
+section > h2{
+    font-size: 15px;
+}
+
+section > p{
+    font-size: 7px;
+}
